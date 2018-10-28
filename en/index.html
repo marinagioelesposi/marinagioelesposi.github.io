@@ -22,8 +22,10 @@
           <header id="header">
             <div class="logo">
               
-                        
-              <span class="icon fa-diamond"></span>
+              <div class="inner">
+                <img src="/images/logomg.png"> 
+              </div>
+            
             
             </div>
             <div class="content">
@@ -42,6 +44,8 @@
                   <li><a href="#luoghi">Locations</a></li>
                 
                   <li><a href="#contact">Contact</a></li>
+                
+                  <li><a href="#formspree">Contact us / RSVP</a></li>
                 
               </ul>
             </nav>
@@ -148,6 +152,58 @@ Castello di Solanto:</p>
 </article>
 
             
+              <article id="formspree">
+  <h1>Contact us</h1>
+  <p><form id="contactform" method="post" action="https://formspree.io/marinagioelesposi@gmail.com">
+    <div class="field half first">
+        <input type="text" name="name" id="name" placeholder="Name"/>
+    </div>
+    <div class="field half">
+        <input type="email" id="email" name="email" placeholder="Email">
+    </div>
+    <div class="field">
+        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="Send message" class="special" /></li>
+        <li><input type="reset" value="Reset" /></li>
+    </ul>
+    <input type="hidden" name="_next" value="?sent#formspree" />
+    <input type="hidden" name="_subject" value="Subject for your mail like new message" />
+    <input type="text" name="_gotcha" style="display:none" />
+</form>
+<span id="contactformsent">Thank you for your message</span></p>
+
+<script>
+$(document).ready(function($) { 
+    $(function(){
+        if (window.location.search == "?sent") {
+            $('#contactform').hide();
+            $('#contactformsent').show();
+        } else {
+            $('#contactformsent').hide();
+        }
+    });
+});
+</script>
+
+<ul class="icons">
+
+	<li><a href="#" class="icon fa-twitter"><span class="label">twitter</span></a></li>
+
+	<li><a href="marinagioelesposi@gmail.com" class="icon fa-google"><span class="label">google</span></a></li>
+
+	<li><a href="#" class="icon fa-facebook"><span class="label">facebook</span></a></li>
+
+	<li><a href="#" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+
+	<li><a href="#" class="icon fa-github"><span class="label">github</span></a></li>
+
+</ul>
+
+</article>
+
+            
           </div>
 
         
@@ -161,7 +217,7 @@ Castello di Solanto:</p>
 
 				
 					<footer id="footer">
-						<p class="copyright">&copy; Gioele La Manno e Marina Micari. Design: <a href="https://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a></p>
+						<p class="copyright">&copy; Gioele La Manno e Marina Micari.</p>
 					</footer>
 
 			</div>

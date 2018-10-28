@@ -50,7 +50,7 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: #1b1f22; }
+  background: #ffffff; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -79,9 +79,9 @@ html {
       font-size: 10pt; } }
 
 body, input, select, textarea {
-  color: #ffffff;
+  color: rgb(123,161,142);
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 1rem;
   line-height: 1.65; }
 
@@ -97,17 +97,20 @@ a {
     border-bottom-color: transparent; }
 
 strong, b {
-  color: #ffffff;
+  color: rgb(123,161,142); /* BOLD OR STRONG IN ATRICLE*/
   font-weight: 600; }
 
 em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem 0;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: rgb(123,161,142);
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
@@ -285,7 +288,7 @@ textarea {
     box-shadow: 0 0 0 1px #ffffff; }
 
 select option {
-  background: #1b1f22;
+  background: #ffffff;
   color: #ffffff; }
 
 .select-wrapper {
@@ -456,7 +459,7 @@ input[type="radio"] + label:before {
     -ms-pointer-events: none;
     pointer-events: none;
     background-image: url("/images/overlay.png");
-    background-color: rgba(19, 21, 25, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     content: '';
     display: block;
@@ -771,21 +774,23 @@ button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("/images/overlay.png");
+    /* background-color: rgba(255, 255, 255, 1);*/ /* FINAL COLOR */
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.6)), url("/images/overlay.png");
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
     z-index: 2; }
   #bg:after {
-    -moz-transform: scale(1.125);
-    -webkit-transform: scale(1.125);
-    -ms-transform: scale(1.125);
-    transform: scale(1.125);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.35);
+    -ms-transform: scale(1.35);
+    transform: scale(1.35);
     -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-    background-image: url("/images/bg.jpg");
+    /*  background-color: rgb(101, 134, 118); */ /* INITIAL COLOR */
+    background-image: url("/images/bg.png"); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -800,7 +805,7 @@ button {
     -ms-filter: blur(0.2rem);
     filter: blur(0.2rem); }
   body.is-loading #bg:before {
-    background-color: #000000; }
+    background-color: rgba(255, 255, 255, 0.75); }   /* INITIAL COLOR */
 
 /* Wrapper */
 #wrapper {
@@ -856,10 +861,10 @@ button {
   -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-  background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
-  background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
+  background-image: -moz-radial-gradient(rgba(58, 77, 52, 0.15) 35%, transparent 70%);
+  background-image: -webkit-radial-gradient(rgba(58, 77, 52, 0.15) 35%, transparent 70%);
+  background-image: -ms-radial-gradient(rgba(58, 77, 52, 0.15) 35%, transparent 70%);
+  background-image: radial-gradient(rgba(58, 77, 52, 0.15) 35%, transparent 70%);
   max-width: 100%;
   text-align: center; }
   #header > * {
@@ -873,28 +878,41 @@ button {
       content: '';
       display: block;
       position: absolute;
-      top: calc(-3.5rem - 1px);
+      top: calc(-3.4rem - 2px);
       left: calc(50% - 1px);
-      width: 1px;
-      height: calc(3.5rem + 1px);
-      background: #ffffff; }
+      width: 2px;
+      height: calc(3.4rem + 2px);
+      background: rgb(123,161,142); }
   #header > :first-child {
     margin-top: 0; }
     #header > :first-child:before {
       display: none; }
   #header .logo {
-    width: 5.5rem;
-    height: 5.5rem;
-    line-height: 5.5rem;
-    border: solid 1px #ffffff;
-    border-radius: 100%; }
+    width: 6.5rem; /* some width amount needed */
+    margin: 0 auto; 
+    overflow: visible;
+    height: 6.5rem;
+    /* line-height: 2.5rem; */
+    /* border: solid 1px #ffffff; */
+    border-radius: 100%;
+    }
+    #header .logo .inner {
+     position: relative;
+     float: right; /* this was added and display removed */
+     right: 46%;
+    }
+    #header .logo .inner img {
+      position: relative; 
+      width: 10rem;
+      right:-50%; /* this was changed from "left" in original */
+    }
     #header .logo .icon:before {
       font-size: 2rem; }
   #header .content {
     border-style: solid;
-    border-color: #ffffff;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
+    border-color: rgb(123,161,142);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
     max-width: 100%; }
     #header .content .inner {
       -moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -910,7 +928,8 @@ button {
       overflow: hidden; }
       #header .content .inner > :last-child {
         margin-bottom: 0; }
-    #header .content p {
+    #header .content p { /* SUBTITLE*/
+      color: rgb(11, 15, 13);
       text-transform: uppercase;
       letter-spacing: 0.2rem;
       font-size: 0.8rem;
@@ -923,11 +942,11 @@ button {
     margin-bottom: 0;
     list-style: none;
     padding-left: 0;
-    border: solid 1px #ffffff;
+    border: solid 1px rgb(123,161,142); /* BORDER AROUND PAGES*/
     border-radius: 4px; }
     #header nav ul li {
       padding-left: 0;
-      border-left: solid 1px #ffffff; }
+      border-left: solid 1px rgb(123,161,142); }  /* VERTICAL SEPARATOR PAGES*/
       #header nav ul li:first-child {
         border-left: 0; }
       #header nav ul li a {
@@ -941,9 +960,9 @@ button {
         font-size: 0.8rem;
         border-bottom: 0; }
         #header nav ul li a:hover {
-          background-color: rgba(255, 255, 255, 0.075); }
+          background-color: rgba(146, 165, 155, 0.15); }
         #header nav ul li a:active {
-          background-color: rgba(255, 255, 255, 0.175); }
+          background-color: rgba(123,161,142, 0.275); }
   #header nav.use-middle:after {
     content: '';
     display: block;
@@ -987,9 +1006,13 @@ button {
         top: calc(-2rem - 1px);
         height: calc(2rem + 1px); }
     #header .logo {
-      width: 4.75rem;
-      height: 4.75rem;
+      width: 4.9rem;
+      height: 4.9rem;
       line-height: 4.75rem; }
+
+    #header .logo .inner img {
+      width: 7rem;
+    }
       #header .logo .icon:before {
         font-size: 1.75rem; }
     #header .content .inner {
@@ -1010,7 +1033,7 @@ button {
         max-width: 100%; }
         #header nav ul li {
           border-left: 0;
-          border-top: solid 1px #ffffff; }
+          border-top: solid 1px rgb(123,161,142); }
           #header nav ul li:first-child {
             border-top: 0; }
           #header nav ul li a {
@@ -1063,8 +1086,8 @@ button {
     position: relative;
     width: 40rem;
     max-width: 100%;
-    background-color: rgba(27, 31, 34, 0.85);
-    border-radius: 4px;
+    background-color: rgba(250, 248, 231, 0.623);
+    border-radius: 10px;
     opacity: 0; }
     #main article.active {
       -moz-transform: translateY(0);
