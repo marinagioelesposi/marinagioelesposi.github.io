@@ -23,20 +23,32 @@ draft = false
 	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
-<span id="contactformsent">Thank you for your message</span>
+<span id="contactformsent">Inviato con successo! <br>
+Ti ringraziamo per il messaggio.<br>
+</span>
+<form id="contactform2">
+	<ul class="actions">
+		<li><input type="submit" value="Send a new mesage" class="special" /></li>
+	</ul>
+	<input type="hidden" name="_next" value="#formspree" />
+	<input type="text" name="_gotcha" style="display:none" />
+</form>
+
+
+
 
 <script>
 $(document).ready(function($) { 
     $(function(){
         if (window.location.search == "?sent") {
         	$('#contactform').hide();
-        	$('#contactformsent').show();
+			$('#contactformsent').show();
+			$('#contactform2').show();
         } else {
-        	$('#contactformsent').hide();
+			$('#contactformsent').hide();
+			$('#contactform').show();
+			$('#contactform2').hide();
         }
     });
 });
 </script>
-
-
-{{< socialLinks >}}

@@ -15,10 +15,15 @@ draft = false
 	<div class="field">
 		<textarea name="message" id="message" rows="6" placeholder="Messaggio"></textarea>
 	</div>
+	<div class="field half first">
+		<input type="checkbox" id="partecipero" name="partecipero">
+		<label for="partecipero">Confermo la mia partecipazione</label>
+	</div>
 	<ul class="actions">
 		<li><input type="submit" value="Invia messaggio" class="special" /></li>
 		<li><input type="reset" value="Cancella" /></li>
 	</ul>
+
 	<input type="hidden" name="_next" value="?sent#formspree" />
 	<input type="hidden" name="_subject" value="Messaggio dal sito" />
 	<input type="text" name="_gotcha" style="display:none" />
