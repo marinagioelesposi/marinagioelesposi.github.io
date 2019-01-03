@@ -1,6 +1,6 @@
 +++
 title = "Luoghi"
-weight = 1
+weight = 2
 draft = false
 +++
 

@@ -23,20 +23,33 @@ draft = false
 	<input type="hidden" name="_subject" value="Messaggio dal sito" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
-<span id="contactformsent">Ti ringraziamo per il messaggio.</span>
+
+<span id="contactformsent">Inviato con successo! <br>
+Ti ringraziamo per il messaggio.<br>
+</span>
+<form id="contactform2">
+	<ul class="actions">
+		<li><input type="submit" value="Invia nuovo messaggio" class="special" /></li>
+	</ul>
+	<input type="hidden" name="_next" value="#formspree" />
+	<input type="text" name="_gotcha" style="display:none" />
+</form>
+
+
+
 
 <script>
 $(document).ready(function($) { 
     $(function(){
         if (window.location.search == "?sent") {
         	$('#contactform').hide();
-        	$('#contactformsent').show();
+			$('#contactformsent').show();
+			$('#contactform2').show();
         } else {
-        	$('#contactformsent').hide();
+			$('#contactformsent').hide();
+			$('#contactform').show();
+			$('#contactform2').hide();
         }
     });
 });
 </script>
-
-
-{{< socialLinks >}}

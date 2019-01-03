@@ -8,7 +8,7 @@ disableKinds=["RSS"]
 
 [params]
   title = "Marina e Gioele sposi"
-  description = "Questo e' il sito del nostro matrimonio"
+  description = "Ci sposiamo!"
   logoimage = "/images/logomg.png" # logo = "fa-diamond"
   copyright = "Gioele La Manno e Marina Micari"
 

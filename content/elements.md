@@ -1,64 +1,16 @@
 +++
-title = "Elementi"
+title = "Info"
 weight = 5
 draft = false
 +++
 
-<h3 class="major">Hugo shortcodes in theme</h3>
 
-<code>{&zwnj;{< socialLinks >}}</code> will get into {{< socialLinks >}} configured in <code>config.toml</code>.
+{{< gmaps pb="!1m28!1m12!1m3!1d50240.49631126384!2d13.297581237708693!3d38.09294175442299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x1319e58e602063bf%3A0xd3ffd377b11e56f9!2sPalermo+Centrale%2C+Piazza+Giulio+Cesare%2C+90123+Palermo+PA!3m2!1d38.1098468!2d13.3671233!4m5!1s0x1319ee3fa6ee3193%3A0x33ee5901f0be482!2sduomo+di+monreale!3m2!1d38.0821016!2d13.292366999999999!5e0!3m2!1sit!2sit!4v1546518283937" >}}
 
-<code>{&zwnj;{< gmaps  pb="\<sharecode\>" >}}</code> will get a google map 
-{{< gmaps pb="!1m18!1m12!1m3!1d86456.59681285016!2d8.466675323953403!3d47.377433669132884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2zWsO8cmljaA!5e0!3m2!1sde!2sch!4v1488248947910" >}}
+{{< gmaps pb="!1m28!1m12!1m3!1d200999.639734602!2d13.277893617310681!3d38.079244599777915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x1319ee3fa6ee3193%3A0x33ee5901f0be482!2sCattedrale+di+Monreale%2C+Piazza+Guglielmo+II%2C+1%2C+90046+Monreale+PA!3m2!1d38.0821016!2d13.292366999999999!4m5!1s0x1319e27f8b9cf7ad%3A0x1e3ce403dd452513!2sIl+Castello+di+Solanto%2C+Santa+Flavia%2C+PA!3m2!1d38.0768835!2d13.5435784!5e0!3m2!1sit!2sit!4v1546518534722" >}}
 
-To get the pb parameter value, search the desired place on google maps and click the share button and copy/paste the pb parameter out of the iframe code.
 
-<h3 class="major">Text</h3>
 
-This is **bold** and this is __strong__. This is *italic* and this is _emphasized_.
-This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. 
-Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-cheat-sheet).
-
-> Not all markdown syntax is allowed but you can mix most html tags into the markdown text.
-
----
-## Heading Level 2
-### Heading Level 3
-#### Heading Level 4
-##### Heading Level 5
-###### Heading Level 6
----
-
-#### Blockquote
-> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
-
-#### Preformatted
-
-    i = 0;
-
-    while (!deck.isInOrder()) {
-        print 'Iteration ' + i;
-        deck.shuffle();
-        i++;
-    }
-
-    print 'It took ' + i + ' iterations to sort the deck.';
-
-<h3 class="major">Lists</h3>
-
-#### Unordered
-* Dolor pulvinar etiam.
-* Sagittis adipiscing.
-* Felis enim feugiat.
-
-#### Ordered
-1. Dolor pulvinar etiam.
-2. Etiam vel felis viverra.
-3. Felis enim feugiat.
-4. Dolor pulvinar etiam.
-5. Etiam vel felis lorem.
-6. Felis enim et feugiat.
 
 #### Icons
 <ul class="icons">
@@ -80,104 +32,7 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 </ul>
 								
 <h3 class="major">Table</h3>
-#### Default
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-<div class="table-wrapper">
-	<table>
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Description</th>
-				<th>Price</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Item One</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item Two</td>
-				<td>Vis ac commodo adipiscing arcu aliquet.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item Three</td>
-				<td> Morbi faucibus arcu accumsan lorem.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item Four</td>
-				<td>Vitae integer tempus condimentum.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item Five</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="2"></td>
-				<td>100.00</td>
-			</tr>
-		</tfoot>
-	</table>
-</div>
-
-<h4>Alternate</h4>
-<div class="table-wrapper">
-	<table class="alt">
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Description</th>
-				<th>Price</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Item One</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item Two</td>
-				<td>Vis ac commodo adipiscing arcu aliquet.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item Three</td>
-				<td> Morbi faucibus arcu accumsan lorem.</td>
-				<td>29.99</td>
-			</tr>
-			<tr>
-				<td>Item Four</td>
-				<td>Vitae integer tempus condimentum.</td>
-				<td>19.99</td>
-			</tr>
-			<tr>
-				<td>Item Five</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="2"></td>
-				<td>100.00</td>
-			</tr>
-		</tfoot>
-	</table>
-</div>
 								
 
 								
