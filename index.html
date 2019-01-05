@@ -10,6 +10,15 @@
 		<link rel="stylesheet" href="/css/project.css" />
 		
 		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112089742-3"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112089742-3');
+		</script>
 	</head>
 	
 			<script src="/js/jquery.min.js"></script>
@@ -29,7 +38,7 @@
             <div class="content">
               <div class="inner">
                 <h1>Marina e Gioele</h1>
-                <p>Ci sposiamo!</p>
+                <p>Ci sposiamo il 5 Settembre 2019!</p>
               </div>
             </div>
             <nav>
@@ -219,13 +228,14 @@ Edificato in epoca normanna come baluardo difensivo dell’attigua tonnara, il C
             
               <article id="lista">
   <h1>Lista</h1>
-  <p><figure class="image main">
-    <img src="/images/pic02.jpg"/> 
+  <figure class="image main">
+    <img src="/images/arredo.png"/> 
 </figure>
 
-Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 
-<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+<p>Gradiremmo il tuo aiuto a cominciare la nostra vita assieme nel migliore dei modi.</p>
+
+<p>La pagina sara&rsquo; aggiornata con la nostra lista nozze</p>
 
 </article>
 
@@ -242,10 +252,15 @@ Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend s
     <div class="field">
         <textarea name="message" id="message" rows="6" placeholder="Messaggio"></textarea>
     </div>
+    <div class="field half first">
+        <input type="checkbox" id="partecipero" name="partecipero">
+        <label for="partecipero">Confermo la mia partecipazione</label>
+    </div>
     <ul class="actions">
         <li><input type="submit" value="Invia messaggio" class="special" /></li>
         <li><input type="reset" value="Cancella" /></li>
     </ul>
+
     <input type="hidden" name="_next" value="?sent#formspree" />
     <input type="hidden" name="_subject" value="Messaggio dal sito" />
     <input type="text" name="_gotcha" style="display:none" />
