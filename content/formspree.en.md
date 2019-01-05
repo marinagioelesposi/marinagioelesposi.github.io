@@ -23,8 +23,8 @@ draft = false
 	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
-<span id="contactformsent">Inviato con successo! <br>
-Ti ringraziamo per il messaggio.<br>
+<span id="contactformsent">Sent succesffully! <br>
+Thank you for getting in touch!<br>
 </span>
 <form id="contactform2">
 	<ul class="actions">

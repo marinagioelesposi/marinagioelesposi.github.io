@@ -1,12 +1,30 @@
 +++
-weight = 2
-title = "Info"
+weight = 1
+title = "Wedding"
 draft = false
-menuname = "Info"
+menuname = "Wedding"
 
 +++
 
-{{< figure class="image main" src="/images/pic01.jpg" >}}
-Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my [awesome work](#work).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+### At 15:30
+{{< figure class="image main" src="/images/duomodiag.jpg" >}}
+
+We celebrate our wedding at the Duomo of Monreale! <br>
+Please be on time, the bride is only allowed to be 15 minutes late!
+
+
+### At 19:00
+
+We celebreate all together at the Solanto Castle
+{{< figure class="image main" src="/images/solantoday.jpg" >}}
+
+We start with an aperitif at sunset in a wonderful terrace admiring the sunset on the sea.
+{{< figure class="image main" src="/images/tramonto1.jpg" >}}
+
+We will taste the gastronomic pleasures of Sicily with
+a dinner prepared for us by chef Natale Giunta.
+{{< figure class="image main" src="/images/tavola.png" >}}
+
+Refreshments, toasts and dances to the rhythm of Swing !!
+{{< figure class="image main" src="/images/swing.png" >}}

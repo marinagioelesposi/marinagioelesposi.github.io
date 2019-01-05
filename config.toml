@@ -8,7 +8,7 @@ disableKinds=["RSS"]
 
 [params]
   title = "Marina e Gioele sposi"
-  description = "Ci sposiamo!"
+  description = "Ci sposiamo il 5 Settembre 2019!"
   logoimage = "/images/logomg.png" # logo = "fa-diamond"
   copyright = "Gioele La Manno e Marina Micari"
 
@@ -46,7 +46,7 @@ weight = 1
 [languages.en]
 languageName = "Click here for English"
 weight = 2
-title = "Marina and Gioele wedding"
-description = 'This is the website of our wedding'
+title = "Marina and Gioele"
+description = 'We are geting married on the 5th of September 2019'
 
 
