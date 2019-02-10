@@ -7,18 +7,18 @@ draft = false
 ## Sicily
 
 Sicily is a beautiful place to visit with a lot of culture and history.
-September is a great time where one can still enjoy the pleasure of summer without a suffocating temperatures. We hope our guest can take advantage of their travel to explore our beloved island.
+September is a great time where one can still enjoy the pleasure of summer without the super-hot temperatures of July/August. We hope our guest can take advantage of their travel to explore our beloved island.
 
 
 ## A place to stay
 
-To simplify the search of accommodation and make sure that our guest have a pleasant stay, we want to propose a bunch of suggestions:
+To simplify the search of accommodation and make sure that our guest have a pleasant stay, we would like to propose a bunch of suggestions:
 
 - <b>[Case d'Amare, Mondello](http://www.casedamaremondello.it/)</b>
 - <b>[B&B Sant'Agostino](https://santagostinobb.it/it/bed-breakfast-palermo-centro/)
 - <b>[La Casa di Zoe](https://www.tripadvisor.com/Hotel_Review-g187890-d611717-Reviews-La_Casa_di_Zoe-Palermo_Province_of_Palermo_Sicily.html)</b>
 
-Larger group of people traveling togehter might find the amazing villas below particularly interesting:
+Larger group of people traveling together might find the amazing villas below particularly interesting:
 
 - <b>[Sicily Luxury Villas](http://www.sicilyluxuryvillas.com)</b>
 

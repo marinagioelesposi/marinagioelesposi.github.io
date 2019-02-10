@@ -8,12 +8,12 @@ draft = false
 ## La Sicilia
 
 La Sicilia e' un posto magico pieno di cultura e storia.
-Settembre e' il momento perfetto dell'anno, quando e' ancora possibile godere dei piaceri dell'estate senza dover sopportate il caldo dell'estate.
+Settembre e' il momento perfetto dell'anno, quando e' ancora possibile godere dei piaceri dell'estate senza dover sopportarne il caldo soffocante.
 Speriamo che i nostri invitati provenienti da altre parti del mondo possano approfittare dell'opportunità di esplorare la nostra amata isola.
 
 ## Un posto dove alloggiare
 
-Per semplificare la ricerca di alloggio e assicurarci che i nostri ospiti hanno una permanenza gradevole, vogliamo suggerire i seguenti B&b e case in affitto.
+Per semplificare la ricerca di alloggio e assicurarci che i nostri ospiti abbiano una permanenza gradevole, vogliamo suggerire i seguenti B&b e case in affitto:
 
 - <b>[Case d'Amare, Mondello](http://www.casedamaremondello.it/)</b>
 - <b>[B&B Sant'Agostino](https://santagostinobb.it/it/bed-breakfast-palermo-centro/)</b>
