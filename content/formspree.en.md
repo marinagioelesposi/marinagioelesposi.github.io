@@ -1,6 +1,6 @@
 +++
 title = "Contact us"
-weight = 60
+weight = 6
 menuname = "Contact us / RSVP"
 draft = false
 +++

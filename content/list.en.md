@@ -1,9 +1,7 @@
 +++
+title = "List"
 weight = 5
 draft = false
-date = "2017-03-02T11:59:05-05:00"
-title = "List"
-
 +++
 
 {{< figure class="image main" src="/images/arredo.png" >}}

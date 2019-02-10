@@ -42,7 +42,6 @@ disableKinds=["RSS"]
 languageName = "Clicca qui per sito in Italiano"
 weight = 1
 
-
 [languages.en]
 languageName = "Click here for English"
 weight = 2

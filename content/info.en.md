@@ -16,7 +16,7 @@ Please be on time, the bride is only allowed to be 15 minutes late!
 
 ### At 19:00
 
-We celebreate all together at the Solanto Castle
+We celebrate all together at the Solanto Castle
 {{< figure class="image main" src="/images/solantoday.jpg" >}}
 
 We start with an aperitif at sunset in a wonderful terrace admiring the sunset on the sea.

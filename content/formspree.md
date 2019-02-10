@@ -1,6 +1,6 @@
 +++
 title = "Contattaci / RSVP"
-weight = 60
+weight = 6
 menuname = "Contattaci / RSVP"
 draft = false
 +++
