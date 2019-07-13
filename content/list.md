@@ -21,6 +21,14 @@ Clicca su <b>menú</b> poi <b>lista nozze</b> e fai login con credenziali:</br>
 *data: 05/09/2019*</br>
 
 <b>Lista nozze Borzì viaggi</b></br>
-Mandare un’email a <font color="green"><a href="mailto:borziviaggi@borziviaggi.it">borziviaggi@borziviaggi.it</a></font>.</br>
-Numero di tel: 091225511</br>
-Con riferimento alla lista Micari La Manno.
+Si può fare un bonifico al conto:
+
+BORZI VIAGGI SRL</br>
+BANCA: UNICREDIT</br>
+IBAN: IT 40 V 02008 04664 000105165150</br>
+BIC: UNCRITMM</br>
+
+Con causale: <strong>lista Micari La Manno</strong>
+
+Per maggiori informazioni mandare un’email a <font color="green"><a href="mailto:borziviaggi@borziviaggi.it">borziviaggi@borziviaggi.it</a></font>.</br>
+o chiamare il numero di telefono: 091225511</br>
