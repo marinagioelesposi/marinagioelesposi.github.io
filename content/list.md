@@ -10,9 +10,17 @@ Gradiremmo il vostro aiuto a cominciare la nostra vita assieme nel migliore dei 
 
 <a href="http://www.longho.it">{{< figure class="image main" src="/images/arredo.png" >}}</a>
 
-<a href="https://www.borziviaggi.com/">{{< figure class="image main" src="/images/viaggi.png" >}}</a>
 
-<b>Lista nozze Longho</b></br>
+<b>[CHIUSA] <strike>List Borzì viaggi</strike></b></br>
+Grazie di cuore per la generositá e l'affetto</br>
+La lista viaggio di nozze è chiusa.</br>
+In <b>alternativa</b> potete effettuare un bonifico a:</br></br>
+Banca: Nordea Bank</br>
+Intestato a: Gioele La Manno</br>
+IBAN: SE7130000000009007157317</br>
+BIC: NDEASESS</br>
+
+<b>[APERTA] Lista nozze Longho</b></br>
 Puoi consultare la lista nozze in formato pdf qui: <font color="green">[Pdf lista](/images/lista.pdf)</font></br>
 In alternativa, vai sul sito <font color="green">[www.longho.it](www.longho.it)</font>.</br>
 Clicca su <b>menú</b> poi <b>lista nozze</b> e fai login con credenziali:</br>
@@ -20,15 +28,3 @@ Clicca su <b>menú</b> poi <b>lista nozze</b> e fai login con credenziali:</br>
 *cognome sposo: LA MANNO*</br>
 *data: 05/09/2019*</br>
 
-<b>Lista nozze Borzì viaggi</b></br>
-Si può fare un bonifico al conto:
-
-BORZI VIAGGI SRL</br>
-BANCA: UNICREDIT</br>
-IBAN: IT 40 V 02008 04664 000105165150</br>
-BIC: UNCRITMM</br>
-
-Con causale: <strong>lista Micari La Manno</strong>
-
-Per maggiori informazioni mandare un’email a <font color="green"><a href="mailto:borziviaggi@borziviaggi.it">borziviaggi@borziviaggi.it</a></font>.</br>
-o chiamare il numero di telefono: 091225511</br>

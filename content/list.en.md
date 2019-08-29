@@ -6,27 +6,22 @@ draft = false
 
 We would like your help to start our life together in the best way.</br>
 
-<a href="https://www.borziviaggi.com/">{{< figure class="image main" src="/images/viaggi.png" >}}</a>
-
 <a href="http://www.longho.it">{{< figure class="image main" src="/images/arredo.png" >}}</a>
 
-<b>Honeymoon contribution - Borzì </b></br>
-You can make a transfer to the account:
+<b>[CLOSED] <strike>Honeymoon contribution - Borzì</strike></b></br>
+We would like to thank each one of you for the generosity and affection.</br>
+The list is now closed.</br>
+As an <b>alternative</b> you can send a gift using SWISH at 700547041
+or make a bank transfer to:</br></br>
+Bank: Nordea Bank</br>
+Account-id: 900715-7317</br>
+Account holder: Gioele La Manno</br>
+IBAN: SE7130000000009007157317</br>
+BIC: NDEASESS</br>
 
-BORZI VIAGGI SRL</br>
-BANK: UNICREDIT</br>
-IBAN: IT 40 V 02008 04664 000105165150</br>
-BIC: UNCRITMM</br>
-
-With object: <strong>Lista Micari La Manno</strong>
-
-For more information please contact <font color="green"><a href="mailto:borziviaggi@borziviaggi.it">borziviaggi@borziviaggi.it</a></font>.</br>
-or call the phone number: +39 091225511</br>
-
-
-<b>Wedding gift list - Longho</b></br>
+<b>[OPEN] Wedding gift list - Longho</b></br>
 You can have a look at the gift list here: <font color="green">[Gift List](/images/lista.pdf)</font></br>
-As an alternative and for the purchase, go to the website <font color="green">[www.longho.it](www.longho.it)</font>.</br>
+As an alternative and for the purchase, go to the website <font color="green">[www.longho.it](http://www.longho.it)</font>(you might have to switch to the italian version).</br> 
 Click on <b>menú</b> and then on <b>lista nozze</b> (wedding list) and then login using the credentials</br>
 *cognome sposa: MICARI*</br>
 *cognome sposo: LA MANNO*</br>
